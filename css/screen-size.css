@@ -1,0 +1,22 @@
+html, body {
+	font-family: sans-serif;
+	font-smoothing: antialiased;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility;
+}
+.box {
+	align-items: center;
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: column;
+	justify-content: center;
+}
+.box > div {
+	font-size: 1.5rem;
+	padding: 1em 0;
+}
+.box span {
+	font-weight: 700;
+}
